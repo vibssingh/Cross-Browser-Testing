@@ -1,0 +1,5 @@
+org\example\pageObjectModel\LoginPage.class
+org\example\tests\BaseTests.class
+org\example\pageObjectModel\ForgotPasswordPage.class
+org\example\tests\CrossBrowserTests.class
+org\example\pageObjectModel\HomePage.class
