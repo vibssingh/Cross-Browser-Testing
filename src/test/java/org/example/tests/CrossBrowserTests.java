@@ -14,7 +14,6 @@ public class CrossBrowserTests extends BaseTests{
     HomePage homePage ;
     ForgotPasswordPage forgotPasswordPage ;
 
-
     @Test
     public void validLoginTest() throws InterruptedException {
 
@@ -22,7 +21,6 @@ public class CrossBrowserTests extends BaseTests{
 
         loginPage = new LoginPage(driver);
         loginPage.login("Admin","admin123");
-       // loginPage.login("Admin","admin123");
 
         homePage = new HomePage(driver);
         String expectedTitle = homePage.getHomePageText();
